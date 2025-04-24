@@ -1,0 +1,18 @@
+
+
+<h1>@ViewBag.disco.nombre</h1>
+<p>autor @ViewBag.disco.artista</p>
+<p>productor @ViewBag.disco.productor</p>
+<p>genero @ViewBag.disco.generoMusical</p>
+<img src="~/@ViewBag.disco.imagen" alt="disco portada" width="8%" height="auto">
+<section> 
+    <div>    
+        @foreach(string cancion in ViewBag.disco.temas){
+            <p>@cancion</p>
+        
+        }
+    </div>
+</section>
+
+<a  href='@Url.Action("Index", "Home")'>volver</a>
+

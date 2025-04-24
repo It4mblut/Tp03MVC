@@ -10,8 +10,8 @@
     @foreach(var discosDatos in ViewBag.dicDiscos){
         
         
-        <p> soy @discosDatos.Value.nombre</p>
-        <img src="" alt="foto" width="8%" height="auto">
+        <p>@discosDatos.Value.nombre</p>
+        <img src="~/@discosDatos.Value.imagen" alt="disco portada" width="8%" height="auto">
         
         //funcion url action: ("ubicacion dentro de", "adentro de que (normlammente la home)", new {los parametros} )
         <p><a  href='@Url.Action("MostrarDisco", "Home",  new {idDisco=discosDatos.Key})'>datos personales</a></p>
