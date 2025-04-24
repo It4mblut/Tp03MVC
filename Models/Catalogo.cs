@@ -9,7 +9,8 @@ public static class Catalogo
     public static void inicializarCatalogo(){
 
         dicDiscos=new Dictionary<int, DatosDiscos>();
-
+        int aa=1;
+        aa++;
 
        dicDiscos.Add(1, new DatosDiscos(
             "Future Nostalgia",
