@@ -9,14 +9,16 @@ public class DatosDiscos
     public string artista {get; private set;}
     public string productor {get; private set;}
     public string generoMusical {get; private set;}
+    public string imagen {get; private set;}
     public List<string> temas;
 
-    public DatosDiscos(string nombre, string artista, string productor, string generoMusical, List<string> temas){
+    public DatosDiscos(string nombre, string artista, string productor, string generoMusical, string imagen, List<string> temas){
         this.nombre=nombre;
         this.artista=artista;
         this.productor=productor;
         this.generoMusical=generoMusical;
         this.temas=temas;
+        this.imagen=imagen;
     }
 
 

@@ -15,6 +15,25 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        if(Catalogo.dicDiscos==null){
+            Catalogo.inicializarCatalogo();
+        }
+        
+        ViewBag.dicDiscos=Catalogo.dicDiscos;
         return View();
     }
+
+    public IActionResult MostrarDisco(int idDisco){
+
+        if(Catalogo.dicDiscos.ContainsKey(idDisco)){
+           ViewBag.disco=Catalogo.dicDiscos[idDisco]; 
+           ViewBag.idDisco=idDisco;
+        }else{
+            ViewBag.idDisco=-1;
+        }
+        
+        return View();
+    }
+
+
 }

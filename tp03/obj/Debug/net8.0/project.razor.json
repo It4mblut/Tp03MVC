@@ -19352,6 +19352,11 @@
       "FilePath": "c:\\Users\\49008593\\Desktop\\githab\\tp03\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\githab\\tp03\\Views\\Home\\MostrarDisco.cshtml",
+      "TargetPath": "Views\\Home\\MostrarDisco.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"
