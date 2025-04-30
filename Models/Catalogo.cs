@@ -16,7 +16,7 @@ public static class Catalogo
             "Dua Lipa",
             "Stephen Kozmeniuk",
             "Pop",
-            "1",
+            "images/futureNostalgia.jfif",
             new List<string> { "Don't Start Now", "Physical", "Break My Heart", "Levitating" }
         ));
 
@@ -25,7 +25,7 @@ public static class Catalogo
                 "AC/DC",
                 "Mutt Lange",
                 "Rock",
-                "2",
+                "images/backInBlack.png",
                 new List<string> { "Hells Bells", "Shoot to Thrill", "Back In Black", "You Shook Me All Night Long" }
             ));
 
@@ -34,7 +34,7 @@ public static class Catalogo
                 "Miles Davis",
                 "Miles Davis",
                 "Jazz",
-                "3",
+                "images/kindOfBlue.jfif",
                 new List<string> { "So What", "Freddie Freeloader", "Blue in Green", "All Blues", "Flamenco Sketches" }
             ));
 
@@ -43,7 +43,7 @@ public static class Catalogo
                 "Ed Sheeran",
                 "Steve Mac",
                 "Pop",
-                "4",
+                "images/shapeOfYou.jfif",
                 new List<string> { "Shape of You" }
             ));
 
@@ -52,7 +52,7 @@ public static class Catalogo
                 "Beyoncé",
                 "The-Dream",
                 "R&B",
-                "5",
+                "images/lemonade.jfif",
                 new List<string> { "Pray You Catch Me", "Hold Up", "Sorry", "6 Inch", "Formation" }
             ));
 
@@ -61,7 +61,7 @@ public static class Catalogo
                 "Pink Floyd",
                 "Pink Floyd",
                 "Rock",
-                "6",
+                "images/darkSideOfMoon.webp",
                 new List<string> { "Speak to Me", "Breathe", "Time", "Money" }
             ));
 
@@ -70,7 +70,7 @@ public static class Catalogo
                 "Queen",
                 "Roy Thomas Baker",
                 "Rock",
-                "7",
+                "images/nightAtOpera.jfif",
                 new List<string> { "Bohemian Rhapsody", "Love of My Life", "You're My Best Friend" }
             ));
 
@@ -79,7 +79,7 @@ public static class Catalogo
                 "Michael Jackson",
                 "Quincy Jones",
                 "Pop",
-                "8",
+                "images/thriller.webp",
                 new List<string> { "Thriller", "Billie Jean", "Beat It", "Wanna Be Startin' Somethin'" }
             ));
 
@@ -88,7 +88,7 @@ public static class Catalogo
                 "Coldplay",
                 "Guy Berryman",
                 "Rock Alternativo",
-                "9",
+                "images/x&y.webp",
                 new List<string> { "Speed of Sound", "Fix You", "Talk" }
             ));
 
@@ -97,7 +97,7 @@ public static class Catalogo
                 "Taylor Swift",
                 "Jack Antonoff",
                 "Country",
-                "10",
+                "images/1989.jpg",
                 new List<string> { "Shake It Off", "Blank Space", "Style", "Bad Blood", "Wildest Dreams" }
             ));
 
