@@ -21,4 +21,16 @@ div p{
     margin-left: 2%;
 
 }
-
+div p a{
+ 
+        list-style: none;
+        float: left;
+        margin-left: 1%;
+        padding: 0.5%;
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        background-color: aqua;
+        text-decoration: none;
+    color: black;
+    
+}

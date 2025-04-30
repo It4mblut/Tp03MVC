@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1qteQZNo+DMhH65FDDqgrtXb9rFSotnGnBfEgLxqbLM=",
+  "Hash": "8SA0069Ju9rEZRgY5VIvTvVXLvnN+mG/ASz9W8sXRSU=",
   "Source": "tp03",
   "BasePath": "_content/tp03",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\indexEstilo.css"
+    },
+    {
+      "Identity": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\mostrarDiscoEstilo.css",
+      "SourceId": "tp03",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\",
+      "BasePath": "_content/tp03",
+      "RelativePath": "css/mostrarDiscoEstilo.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mostrarDiscoEstilo.css"
     },
     {
       "Identity": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\site.css",

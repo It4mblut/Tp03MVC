@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\indexEstilo.css"
     },
     {
+      "Id": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\mostrarDiscoEstilo.css",
+      "PackagePath": "staticwebassets\\css\\mostrarDiscoEstilo.css"
+    },
+    {
       "Id": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
