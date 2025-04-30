@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="~/css/mostrarDiscoEstilo.css">
 
 <h1>@ViewBag.disco.nombre</h1>
 <p>autor @ViewBag.disco.artista</p>
@@ -6,10 +6,13 @@
 <p>genero @ViewBag.disco.generoMusical</p>
 <img src="~/@ViewBag.disco.imagen" alt="disco portada" width="8%" height="auto">
 <section> 
-    <div>    
+    <div>
+        <ol>
         @foreach(string cancion in ViewBag.disco.temas){
-            <p>@cancion</p>
+            <li>@cancion</li>
         }
+        </ol>   
+        
     </div>
 </section>
 

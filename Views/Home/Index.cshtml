@@ -14,7 +14,9 @@
           <p>@discosDatos.Value.nombre</p>
         <img src="~/@discosDatos.Value.imagen" alt="disco portada" width="8%" height="auto">
         
-        
+        <p>autor @discosDatos.Value.artista</p>
+        <p>productor @discosDatos.Value.productor</p>
+        <p>genero @discosDatos.Value.generoMusical</p>
         <p><a  href='@Url.Action("MostrarDisco", "Home",  new {idDisco=discosDatos.Key})'>más información</a></p>
         
         </div>
