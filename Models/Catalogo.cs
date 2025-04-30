@@ -64,26 +64,7 @@ public static class Catalogo
                 "images/darkSideOfMoon.webp",
                 new List<string> { "Speak to Me", "Breathe", "Time", "Money" }
             ));
-
             dicDiscos.Add(7, new DatosDiscos(
-                "A Night at the Opera",
-                "Queen",
-                "Roy Thomas Baker",
-                "Rock",
-                "images/nightAtOpera.jfif",
-                new List<string> { "Bohemian Rhapsody", "Love of My Life", "You're My Best Friend" }
-            ));
-
-            dicDiscos.Add(8, new DatosDiscos(
-                "Thriller",
-                "Michael Jackson",
-                "Quincy Jones",
-                "Pop",
-                "images/thriller.webp",
-                new List<string> { "Thriller", "Billie Jean", "Beat It", "Wanna Be Startin' Somethin'" }
-            ));
-
-            dicDiscos.Add(9, new DatosDiscos(
                 "X&Y",
                 "Coldplay",
                 "Guy Berryman",
@@ -92,7 +73,7 @@ public static class Catalogo
                 new List<string> { "Speed of Sound", "Fix You", "Talk" }
             ));
 
-            dicDiscos.Add(10, new DatosDiscos(
+            dicDiscos.Add(8, new DatosDiscos(
                 "1989",
                 "Taylor Swift",
                 "Jack Antonoff",
@@ -100,6 +81,25 @@ public static class Catalogo
                 "images/1989.jpg",
                 new List<string> { "Shake It Off", "Blank Space", "Style", "Bad Blood", "Wildest Dreams" }
             ));
+            dicDiscos.Add(9, new DatosDiscos(
+                "A Night at the Opera",
+                "Queen",
+                "Roy Thomas Baker",
+                "Rock",
+                "images/nightAtOpera.jfif",
+                new List<string> { "Bohemian Rhapsody", "Love of My Life", "You're My Best Friend" }
+            ));
+
+            dicDiscos.Add(10, new DatosDiscos(
+                "Thriller",
+                "Michael Jackson",
+                "Quincy Jones",
+                "Pop",
+                "images/thriller.webp",
+                new List<string> { "Thriller", "Billie Jean", "Beat It", "Wanna Be Startin' Somethin'" }
+            ));
+
+
 
 
     }

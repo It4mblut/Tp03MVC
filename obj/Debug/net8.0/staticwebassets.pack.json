@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\indexEstilo.css",
+      "PackagePath": "staticwebassets\\css\\indexEstilo.css"
+    },
+    {
       "Id": "C:\\Users\\49433681\\Desktop\\git\\Tp03MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,21 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
+<link rel="stylesheet" href="~/css/indexEstilo.css">
 
 
-<div>
-    <h1>Bienvenidos a ort musikita</h1>
+   
     <p>aca hay listas de mucha musica</p>
 
 
     @foreach(var discosDatos in ViewBag.dicDiscos){
         
-        
-        <p>@discosDatos.Value.nombre</p>
+        <div>
+          <p>@discosDatos.Value.nombre</p>
         <img src="~/@discosDatos.Value.imagen" alt="disco portada" width="8%" height="auto">
         
-        //funcion url action: ("ubicacion dentro de", "adentro de que (normlammente la home)", new {los parametros} )
+        
         <p><a  href='@Url.Action("MostrarDisco", "Home",  new {idDisco=discosDatos.Key})'>más información</a></p>
+        
+        </div>
+      
         
 
     }
@@ -23,4 +26,4 @@
 
 
 
-</div>
+
